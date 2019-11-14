@@ -120,7 +120,7 @@ public class MotoInventoryDaoTest {
         assertEquals(1, mList.size());
 
         mList = dao.getMotorcyclesByMake("Ducati");
-        assertEquals(1, mList.size());
+        assertEquals(0, mList.size());
 
     }
 
