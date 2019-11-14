@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daddd574-69cb-4e4a-89a3-9548d5d636c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/main/java/com/company/carlot/CarLotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/main/java/com/company/carlot/controller/CarLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/main/java/com/company/carlot/dao/CarLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/main/java/com/company/carlot/dto/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/test/java/com/company/carlot/CarLotApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/test/java/com/company/carlot/dao/CarLotRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/car-lot/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/main/java/com/company/CoffeeInventoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/main/java/com/company/dao/CoffeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/main/java/com/company/dao/RoasterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/main/java/com/company/dto/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/main/java/com/company/dto/Roaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/test/java/com/company/CoffeeInventoryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/test/java/com/company/dao/CoffeeRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/solutions/coffeeinventory/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/BookstoreJdbctemplateDaoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/dao/AuthorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/dao/AuthorDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/dao/BookDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/dao/PublisherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/dao/PublisherDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/domain/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/java/com/company/bookstorejdbctemplatedao/domain/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/test/java/com/company/bookstorejdbctemplatedao/BookstoreJdbctemplateDaoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/test/java/com/company/bookstorejdbctemplatedao/dao/AuthorDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/test/java/com/company/bookstorejdbctemplatedao/dao/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/test/java/com/company/bookstorejdbctemplatedao/dao/PublisherDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/U1-M5-Summative-Solution/src/test/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/u1-m5-summative-assessment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/complete-record-collection-test-suite.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/RecCollDaoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/AlbumDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/AlbumDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/ArtistDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/ArtistDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/LabelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/LabelDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/TrackDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/TrackDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/service/ServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/viewmodel/AlbumViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/RecCollDaoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/AlbumDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/ArtistDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/LabelDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/TrackDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/service/ServiceLayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/02-lesson-mocks/activities/starter-code/rec-coll-jdbctemplate-dao/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/InvoiceInventory.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/U1M6GroupProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/controller/CustomerInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/controller/InvoiceInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/controller/ItemInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/CustomerDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/InvoiceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/InvoiceDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/InvoiceItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/InvoiceItemDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/dao/ItemDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/model/InvoiceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/service/InvoiceInventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/viewmodel/CustomerViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/viewmodel/InvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/java/com/group/jdbc/U1M6GroupProject/viewmodel/ItemViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/U1M6GroupProjectApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/U1M6GroupProjectTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/dao/CustomerDaoJdbcTemplateImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/dao/InvoiceDaoJdbcTemplateImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/dao/InvoiceItemDaoJdbcTemplateImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/dao/ItemDaoJdbcTemplateImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/java/com/group/jdbc/U1M6GroupProject/service/InvoiceInventoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/solutions/u1-m6-group-project/U1M6GroupProject/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/06-module-service-mocks-group/u1-m6-summative-assessment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/game-store-specs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/java/com/trilogyed/rsvp/RsvpServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/java/com/trilogyed/rsvp/controller/RsvpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/java/com/trilogyed/rsvp/controller/RsvpControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/java/com/trilogyed/rsvp/dao/RsvpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/java/com/trilogyed/rsvp/exceptions/RsvpNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/java/com/trilogyed/rsvp/model/Rsvp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/test/java/com/trilogyed/rsvp/RsvpServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/test/java/com/trilogyed/rsvp/controller/RsvpControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/test/java/com/trilogyed/rsvp/dao/RsvpDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-unit/07-capstone/mockmvc-example/rsvp-service/src/test/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-lesson-12-factor-cloud-native-microservices/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-lesson-configuration-server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-lesson-configuration-server/activities/hello-cloud-system/config-server-tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-lesson-configuration-server/activities/hello-cloud-system/images/cloud-config-system.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-lesson-configuration-server/activities/hello-cloud-system/images/postman-refresh-request.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-lesson-configuration-server/activities/random-quote-system/random-quote-service-project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-cloud-system-v2/service-registry-tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/hello-cloud-system-v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motoInventory-service-project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/java/com/example/motoinventoryservice/MotoInventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/java/com/example/motoinventoryservice/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/java/com/example/motoinventoryservice/controller/MotoInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/java/com/example/motoinventoryservice/dao/MotoInventoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/java/com/example/motoinventoryservice/dao/MotoInventoryDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/java/com/example/motoinventoryservice/model/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/test/java/com/example/motoinventoryservice/MotoInventoryDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/test/java/com/example/motoinventoryservice/MotoInventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/moto-inventory-service/src/test/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/VinLookupApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/controller/VinLookupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/model/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter-code/vin-lookup/src/test/java/com/trilogyed/vinlookup/VinLookupApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../random-quote-service-system-v2/random-quote-service-system-v2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/RecCollDaoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/AlbumDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/AlbumDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/ArtistDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/ArtistDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/LabelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/LabelDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/TrackDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/dao/TrackDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Artist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Label.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/java/com/company/reccolldao/model/Track.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/RecCollDaoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/AlbumDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/ArtistDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/LabelDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/test/java/com/company/reccolldao/dao/TrackDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/in-class/record-collection-activity/solution/rec-coll-jdbctemplate-dao/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/main/java/com/company/carlotjdbctemplatedao/CarLotJdbctemplateDaoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/main/java/com/company/carlotjdbctemplatedao/dao/CarLotDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/main/java/com/company/carlotjdbctemplatedao/dao/CarLotDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/main/java/com/company/carlotjdbctemplatedao/model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/test/java/com/company/carlotjdbctemplatedao/CarLotJdbctemplateDaoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/test/java/com/company/carlotjdbctemplatedao/dao/CarLotJdbcTemplateImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/car-lot-jdbctemplate-dao/src/test/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/CoffeeInventoryDaoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/dao/CoffeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/dao/CoffeeDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/dao/RoasterDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/dao/RoasterDaoJdbcTemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/model/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/java/com/company/coffeeinventorydao/model/Roaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/test/java/com/company/coffeeinventorydao/CoffeeInventoryDaoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/test/java/com/company/coffeeinventorydao/dao/CoffeeDaoJdbcTemplateImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/test/java/com/company/coffeeinventorydao/dao/RoasterDaoJdbcTemplateImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/05-lesson-jdbctemplates/activities/solutions/coffee-inventory-dao/src/test/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/hsql/simplecrmdb.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/hsql/simplecrmdb.script" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/CrmApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/controller/CRMController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/controller/CRMController2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/dao/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/dao/NoteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/dto/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/java/com/company/crm/dto/Note.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-unit/05-module-relational-data/06-lesson-jpa/activities/in-class/simple_crm/src/test/java/com/company/crm/CrmApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/starter-code/moto-inventory-service/target/" />
+    <ignored path="$PROJECT_DIR$/starter-code/vin-lookup/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter-code/moto-inventory-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/motoInventory-service-project.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="309">
+                <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/controller/VinLookupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/model/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/VinLookupApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/motoInventory-service-project.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="moto-inventory-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="moto-inventory-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="moto-inventory-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="moto-inventory-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinlookup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinlookup" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="motoinventory-service-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="motoinventory-service-system" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="vin-lookup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinlookup" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daddd574-69cb-4e4a-89a3-9548d5d636c7" name="Default Changelist" comment="" />
+      <created>1573741440865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573741440865</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="23" width="1260" height="701" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="DB Browser" />
+      <window_info id="UI Designer" />
+      <window_info id="Project Explorer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Job Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/controller/VinLookupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/model/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-code/vin-lookup/src/main/java/com/trilogyed/vinlookup/VinLookupApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter-code/moto-inventory-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motoInventory-service-project.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="309">
+            <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_221</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

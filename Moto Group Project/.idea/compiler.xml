@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vin-lookup" />
+        <module name="moto-config-server" />
+        <module name="moto-inventory-service" />
+        <module name="eureka-registry-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-registry-server" target="1.8" />
+      <module name="moto-config-server" target="1.8" />
+      <module name="moto-config-service" target="1.8" />
+      <module name="moto-inventory-service" target="1.8" />
+      <module name="vin-lookup" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-registry-server" options="-parameters" />
+      <module name="moto-config-server" options="-parameters" />
+      <module name="moto-config-service" options="-parameters" />
+      <module name="moto-inventory-service" options="-parameters" />
+      <module name="vin-lookup" options="-parameters" />
+    </option>
+  </component>
+</project>
