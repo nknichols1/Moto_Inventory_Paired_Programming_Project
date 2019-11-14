@@ -1,13 +1,18 @@
 package com.example.motoinventoryservice.controller;
 
+import com.example.motoinventoryservice.feign.VinLookup;
 import com.example.motoinventoryservice.model.Motorcycle;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.Map;
 import java.util.Random;
 
 @RestController
+@RefreshScope
 public class MotoInventoryController {
 
     @RequestMapping(value = "/motorcycles", method = RequestMethod.POST)
@@ -55,5 +60,41 @@ public class MotoInventoryController {
 
         // do nothing here - in a real application we would update the entry in the backing data store
 
+    }
+
+//    @Autowired
+//    private DiscoveryClient discoveryClient;
+//
+//    private RestTemplate restTemplate = new RestTemplate();
+//
+//    @Value("${vinLookupServiceName}")
+//    private String vinLookupServiceName;
+//
+//    @Value("${serviceProtocol}")
+//    private String serviceProtocol;
+//
+//    @Value("${servicePath}")
+//    private String servicePath;
+
+//    @Value("${officialGreeting}")
+//    private String officialGreeting;
+
+    @Autowired
+    private final VinLookup vin;
+
+    public MotoInventoryController(VinLookup vin) {
+        this.vin = vin;
+    }
+
+    @GetMapping("/vehicle/{vin}")
+    public Map getVehicleInformtion() {
+
+//       List<ServiceInstance> instances = discoveryClient.getInstances(vinLookupServiceName);
+//
+//        String vinLookupServiceUri = serviceProtocol + instances.get(0).getHost() + ":" + instances.get(0).getPort() + servicePath + vin;
+//
+//       Map motoMap = restTemplate.getForObject(vinLookupServiceUri, Map.class);
+
+        return vin.getVehicle();
     }
 }

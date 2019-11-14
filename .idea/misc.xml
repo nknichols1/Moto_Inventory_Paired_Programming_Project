@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Moto Group Project/moto-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Moto Group Project/motoinventory-service-system/starter-code/moto-inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Moto Group Project/motoinventory-service-system/starter-code/vin-lookup/pom.xml" />
+        <option value="$PROJECT_DIR$/Moto Group Project/eureka-registry-server/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK" />
+</project>

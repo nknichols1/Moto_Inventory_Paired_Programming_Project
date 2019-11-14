@@ -19,8 +19,8 @@ public class VinLookupController {
 
     Random rndGen = new Random();
 
-    @RequestMapping (value = "/vehicle/{vin}", method = RequestMethod.GET)
-    public Vehicle lookUpVehicle(@PathVariable String vin) {
+    @RequestMapping (value = "/vehicle", method = RequestMethod.GET)
+    public Vehicle lookUpVehicle() {
         Vehicle vehicle = new Vehicle();
         vehicle.setType(types[rndGen.nextInt(4)]);
         vehicle.setMake(makes[rndGen.nextInt(5)]);

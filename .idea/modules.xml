@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Moto_Inventory_Paired_Programming_Project.iml" filepath="$PROJECT_DIR$/.idea/Moto_Inventory_Paired_Programming_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moto Group Project/eureka-registry-server/eureka-registry-server.iml" filepath="$PROJECT_DIR$/Moto Group Project/eureka-registry-server/eureka-registry-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moto Group Project/moto-config-server/moto-config-server.iml" filepath="$PROJECT_DIR$/Moto Group Project/moto-config-server/moto-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moto Group Project/motoinventory-service-system/starter-code/moto-inventory-service/moto-inventory-service.iml" filepath="$PROJECT_DIR$/Moto Group Project/motoinventory-service-system/starter-code/moto-inventory-service/moto-inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moto Group Project/motoinventory-service-system/starter-code/vin-lookup/vin-lookup.iml" filepath="$PROJECT_DIR$/Moto Group Project/motoinventory-service-system/starter-code/vin-lookup/vin-lookup.iml" />
+    </modules>
+  </component>
+</project>
