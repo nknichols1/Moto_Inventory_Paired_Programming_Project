@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8844a5c-589c-493b-948d-fd81f85c5aaf" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Tspq2FCqPU8KQQZkKUEuSqgo3L" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/note-service/src/test/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.noteservice.dao" />
+      <recent name="com.company.noteservice.model" />
+      <recent name="com.company.noteservice.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fsand\Desktop\Bootcamp\Working Folder JavaS1\Java-Book-System\note-service\src\test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.NoteDaoImplTest.shouldAddGetDeleteNote">
+    <configuration name="NoteServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.noteservice.NoteServiceApplication" />
+      <module name="note-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.noteservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteDaoImplTest.shouldAddGetDeleteNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="note-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.noteservice.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.noteservice.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.company.noteservice.dao.NoteDaoImplTest" />
+      <option name="METHOD_NAME" value="shouldAddGetDeleteNote" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NoteDaoImplTest.shouldAddGetDeleteNote" />
+        <item itemvalue="Application.NoteServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8844a5c-589c-493b-948d-fd81f85c5aaf" name="Default Changelist" comment="" />
+      <created>1574258844752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574258844752</updated>
+    </task>
+    <servers />
+  </component>
+</project>
